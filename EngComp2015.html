@@ -22,8 +22,8 @@
             <!-- Collection of nav links, forms, and other content for toggling -->
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="resume.html">Resume</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -34,22 +34,59 @@
     </header>
 
     <hr>
-    <hr>
-    <hr>
-    <hr>
-<!--
-    <div class="row">
-        <div class="col-lg-12">
-            <img src="CrashPage1.jpeg" alt="Page Under Construction" class="img-responsive center-block">
-        </div>
-    </div>
--->
+
     <div class="jumbotron">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12">
-                    <a href="EngComp2015.html" role="button" class="btn btn-primary btn-block">Washer Checker</a>
+                <div class="col-lg-8">
+                        <h1>Hey there! <small>Upload an .bmp image(s) too check if it is broken</small></h1>
                 </div>
+
+                    <div class="col-lg-3">
+                        <div id="carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="Data_Set/Examples_of_shipped_washers/show1.bmp" alt="set1" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                    <img src="Data_Set/Examples_of_shipped_washers/show2.bmp" alt="set2" class="img-responsive">
+                                </div>
+                            </div>
+                            <a class="carousel-control left" href="#carousel" data-slide="prev">
+                                <span class="icon-prev"></span>
+                            </a>
+                            <a class="carousel-control right" href="#carousel" data-slide="next">
+                                <span class="icon-next"></span>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                <form name="search" action="upload.php" method="post" enctype="multipart/form-data">
+                  <div class="form-group">
+                    <label for="FileToUpload">File input</label>
+                    <input type="file" id="FileToUpload">
+                      <p class="help-block">Example block-level help text here.</p>
+                      <input type="submit" class="btn btn-default" value="Submit Image">
+                  </div>
+                </form>
+            </div>
+            <div class="col-lg-4" style="background-color: green;">
+                <p>IT PASSED!</p>
+            </div>
+            <div class="col-lg-4" style="background-color: red;">
+                <p>IT FAILED =(</p>
+            </div>
         </div>
     </div>
 
