@@ -6,6 +6,7 @@
     background-color: rgba(1, 1, 2, 0.8);
     color: rgba(1, 1, 2, 0.8);
     padding:10px;
+    padding-right: 5px;
     margin-bottom: 10px;
 
     // set animation
@@ -15,6 +16,7 @@
 
 .unpadded{
     padding:0;
+    padding-right: 5px;
     opacity: 0.9;
 
     // set animation
@@ -27,4 +29,12 @@
     text-align: center;
     color: grey;
     background-color: rgba(1, 1, 1, 0.8);
+}
+
+.panel-heading .accordion-toggle:after {
+   font-family: FontAwesome;
+   content:  "\f054";
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\f053";
 }
