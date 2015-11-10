@@ -31,6 +31,10 @@
     background-color: rgba(1, 1, 1, 0.8);
 }
 
+p{
+    text-indent: 50px;
+}
+
 .panel-heading .accordion-toggle:after {
    font-family: FontAwesome;
    content:  "\f054";
