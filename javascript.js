@@ -21,11 +21,11 @@ $(document).ready(function() {
   }
 
   $('.accordion-section-title').click(function(e) {
-    // Grab current anchor value
-    var currentAttrValue = $(this).attr('href');
-    //Change the icon
-    $(this).find('span').toggleClass('fa-angle-right fa-angle-down')
-    // Open and close here
+      // Grab current anchor value
+      var currentAttrValue = $(this).attr('href');
+      //Change the icon
+      $(this).find('span').toggleClass('fa-chevron-circle-right fa-chevron-circle-down')
+      // Open and close here
 
     if($(this).is('.active')) {
       close_accordion_section();

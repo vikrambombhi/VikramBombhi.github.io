@@ -64,14 +64,10 @@ h2{
   padding-bottom: 25px;
 }
 
-.more{
-
-}
-
 
 /* Footer */
 .footer{
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
     color: grey;
     background-color: rgba(1, 1, 1, 0.8);
