@@ -42,12 +42,54 @@
                 <hr style="height:5px;border:none;color:dodgerblue;background-color:dodgerblue; width:50%;" />
             </div>
         </div>
+
         <div class="container">
             <div class="content">
                 <!--Row1-->
                 <div class="row">
                     <div class="col-md-5">
-                        <div id="carousel" class="carousel slide">
+                        <div id="carouse1" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <iframe width="100%" height="250px" src="https://www.youtube.com/embed/TWEXCYQKyDc" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <a class="carousel-control left" href="#carouse3" data-slide="prev">
+                                <span class="icon-prev"></span>
+                                </a>
+                                <a class="carousel-control right" href="#carouse3" data-slide="next">
+                                <span class="icon-next"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="accordion">
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#Steganography">
+                                        <h3 style="display:inline;">Steganography</h3>
+                                        <span class="fa fa-2x fa fa-chevron-circle-right" style="display:inline;padding-left: 3px;"></span>
+                                </a>
+                                <div id="Steganography" class="accordion-section-content">
+                                    <p>
+                                        Steganography is "the practice of concealing messages or information within other nonsecret text or data". After watching
+                                        <a href="https://www.youtube.com/watch?v=TWEXCYQKyDc" target="_blank">this video</a> (on the left) I was inspired to create my
+                                        own adaptation of the idea with which I could hide text within an image. My method relies on the idea of the "least significant bit". By finding the
+                                        RGB value for a pixel in and converting it to binary we can change the last bit. The last bit is the least significant bit and so
+                                        has the least amount of influence on the outcome of the RGB value so after the pixel been altered the difference in the pixel is impossible to detect
+                                        with the human eye.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr width="95%">
+                <br>
+                <!--Row2-->
+                <div class="row">
+                    <div class="col-md-5">
+                        <div id="carouse2" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img src="images/2.png" alt="Conceptual Flow Chart" class="img-responsive">
@@ -92,12 +134,12 @@
                     </div>
                 </div>
                 <br>
-                <hr style="max-width: 95%;">
+                <hr width="95%">
                 <br>
-                <!--Row2-->
+                <!--Row3-->
                 <div class="row">
                     <div class="col-md-5">
-                        <div id="carouse2" class="carousel slide">
+                        <div id="carouse3" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img src="images/cprt.jpg" alt="Conceptual Flow Chart" class="img-responsive">
@@ -134,18 +176,18 @@
                 <br>
                 <hr width="95%">
                 <br>
-                <!--Row3-->
+                <!--Row4-->
                 <div class="row">
                     <div class="col-md-5">
-                        <div id="carouse3" class="carousel slide">
+                        <div id="carouse4" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <iframe width="100%" height="250px" src="https://www.youtube.com/embed/TWEXCYQKyDc" frameborder="0" allowfullscreen></iframe>
+                                    <img src="images/SCESOC.jpg" alt="SCESOC exec's" class="img-responsive">
                                 </div>
-                                <a class="carousel-control left" href="#carouse3" data-slide="prev">
+                                <a class="carousel-control left" href="#carouse2" data-slide="prev">
                                 <span class="icon-prev"></span>
                                 </a>
-                                <a class="carousel-control right" href="#carouse3" data-slide="next">
+                                <a class="carousel-control right" href="#carouse2" data-slide="next">
                                 <span class="icon-next"></span>
                                 </a>
                             </div>
@@ -154,18 +196,20 @@
                     <div class="col-lg-7">
                         <div class="accordion">
                             <div class="accordion-section">
-                                <a class="accordion-section-title" href="#Steganography">
-                                        <h3 style="display:inline;">Steganography</h3>
+                                <a class="accordion-section-title" href="#SCESOC">
+                                        <h3 style="display:inline;">SCESOC (Systems and Computer Engineering Society)</h3>
                                         <span class="fa fa-2x fa fa-chevron-circle-right" style="display:inline;padding-left: 3px;"></span>
                                 </a>
-                                <div id="Steganography" class="accordion-section-content">
+                                <div id="SCESOC" class="accordion-section-content">
                                     <p>
-                                        Steganography is "the practice of concealing messages or information within other nonsecret text or data". After watching
-                                        <a href="https://www.youtube.com/watch?v=TWEXCYQKyDc" target="_blank">this video</a> (on the left) I was inspired to create my
-                                        own adaptation of the idea with which I could hide text within an image. My method relies on the idea of the "least significant bit". By finding the
-                                        RGB value for a pixel in and converting it to binary we can change the last bit. The last bit is the least significant bit and so
-                                        has the least amount of influence on the outcome of the RGB value so after the pixel been altered the difference in the pixel is impossible to detect
-                                        with the human eye.
+                                        Not all software engineering is done using a keyboard and mouse. Many problems and solutions can be found with
+                                        the help of others. I myself was looking for a society at Carleton that would allow me to talk to fellow software
+                                        engineers and expand my network. Almost every engineering department has a society at Carleton that brings them
+                                        networking nights and support in their programs however I was amazed to find out that the Systems and Computer
+                                        Engineering department had no such society. Talking to fellow students in my department it was clear that everyone
+                                        wanted one so I decided to start one on my own, or rather restart the old one that had died out years ago. The new
+                                        society is now fully operational with plenty of interest. The image on the left is the executives of the society on
+                                        the first day of 'official' work.
                                     </p>
                                 </div>
                             </div>
@@ -174,7 +218,7 @@
                 </div>
             </div>
         </div>
-        </div>
+
         <div class="footer">
             <div class="container-fluid">
                 <div class="row">
