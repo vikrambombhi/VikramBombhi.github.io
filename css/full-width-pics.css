@@ -18,12 +18,16 @@ body {
 }
 
 .image-bg-fluid-height {
-    background: url("../images/003-subtle-light-pattern.jpg");
+    background: url("../images/sky.jpg");
+    /*background: url("../images/003-subtle-light-pattern.jpg");
+    /*background-color: dodgerblue;*/
     padding: 100px 0;
 }
 
 .image-bg-fixed-height {
-	background: url('../images/bottom_banner.png') no-repeat center center scroll;
+	background: url('../images/skyupsidedown.jpg') no-repeat center center scroll;
+    /*background: url('../images/bottom_banner.png') no-repeat center center scroll;
+    /*background-color: dodgerblue;*/
     height: 450px;
 }
 
