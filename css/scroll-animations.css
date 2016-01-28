@@ -20,7 +20,6 @@
 /*animation element*/
 
 .animation-element {
-  width: 100%;
   opacity: 0;
   position: relative;
 }
@@ -88,6 +87,8 @@
   color: #aaa;
 }
 
+
+
 /*media queries for small devices*/
 @media screen and (max-width: 678px){
   /*testimonials*/
@@ -105,8 +106,8 @@
     float: none;
   }
   .animation-element.slide-left.testimonial img{
-    width: 85px;
-    height: 85px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 5px;
   }
 
