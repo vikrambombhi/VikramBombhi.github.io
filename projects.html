@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Vikram Bombhi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/scroll-animations.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html">Vikram Bombhi</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="index.html#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#whatIDo">What I Do</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <header class="container-fluid">
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="jumbotron" style="text-align:center; background:#FFFFFF;">
+            <div class="container">
+                <h1>My Projects</h1>
+                <hr style="height:5px;border:none;color:dodgerblue;background-color:dodgerblue; width:50%;" />
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <!--Row1-->
+                <section class="no-padding" id="steganography">
+                <div class="row animation-element slide-left testimonial" style="width:100%;">
+                    <div class="col-md-5">
+                        <iframe width="100%" height="250px" src="https://www.youtube.com/embed/TWEXCYQKyDc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="accordion">
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#Steganography">
+                                        <h3 style="display:inline;">Steganography</h3>
+                                        <span class="fa fa-2x fa fa-chevron-circle-right" style="display:inline;padding-left: 3px;"></span>
+                                </a>
+                                <div id="Steganography" class="accordion-section-content">
+                                    <p>
+                                        Steganography is "the practice of concealing messages or information within other nonsecret text or data". After watching
+                                        <a href="https://www.youtube.com/watch?v=TWEXCYQKyDc" target="_blank">this video</a> (on the left) I was inspired to create my
+                                        own adaptation of the idea with which I could hide text within an image. My method relies on the idea of the "least significant bit". By finding the
+                                        RGB value for a pixel in and converting it to binary we can change the last bit. The last bit is the least significant bit and so
+                                        has the least amount of influence on the outcome of the RGB value so after the pixel been altered the difference in the pixel is impossible to detect
+                                        with the human eye.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <!--Row2-->
+                <section class="no-padding" id="engcomp2015">
+                <div class="row animation-element slide-left testimonial">
+                    <div class="col-md-5">
+                        <img src="img/projects/engcomp2015.PNG" alt="Final Product" class="img-responsive">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="accordion">
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#EngComp">
+                                        <h3 style="display:inline;">EngComp 2015</h3>
+                                        <span class="fa fa-2x fa fa-chevron-circle-right" style="display:inline;padding-left: 3px;"></span>
+                                </a>
+                                <div id="EngComp" class="accordion-section-content">
+                                    <p>
+                                        I competed in the software engineering portion of the engineering competition held at Carleton University.
+                                        The groups consisted of four people tasked to solve a situation where we must determine if a washer is
+                                        defective or not within 7 hours. Armed with a set of "good" washers that the manufacturer provided we had
+                                        to determine if a washer was defective using only an image of the washer in question. After analyzing multiple
+                                        washers the results had to be outputted as a CSV(comma separated value). My group chose to determine of the washer
+                                        in question was defective by comparing its surface area to that of a washer from the "good" batch. The flow chart
+                                        outlines the conceptual idea behind our algorithm when determining whether or not the washer was defective.
+                                        The presentation slides for the project can be found
+                                        <a href="https://docs.google.com/presentation/d/1_3Cp3wa2NJ96-6q-vLdIx0yO72bfEGBwxInYwDS6oDU/edit?usp=sharing" target="_blank">here</a>
+                                        and the full repo can be found
+                                        <a href="https://github.com/VikramBombhi/EngComp2015" target="_blank">here</a>
+                                        . Our algorithm was 62% accurate for the set of images giving at the competition
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <!--Row3-->
+                <section class="no-padding" id="cprt">
+                <div class="row animation-element slide-left testimonial">
+                    <div class="col-md-5">
+                        <img src="img/projects/cprt.jpg" alt="Conceptual Flow Chart" class="img-responsive" style="width: 100%;height: auto;">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="accordion">
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#cprt">
+                                        <h3 style="display:inline;">Carleton Planetary Robotics Team</h3>
+                                        <span class="fa fa-2x fa fa-chevron-circle-right" style="display:inline;padding-left: 3px;"></span>
+                                </a>
+                                <div id="cprt" class="accordion-section-content">
+                                    <p>
+                                        The Carleton Planetary Robotics Team builds and competes in the University Rover Challenge Competition.
+                                        This is the first year Carleton is participating in the competition so most, if not all, of the software is being built
+                                        from the ground up. I have been working in the global positioning system and user interface teams. I completed all
+                                        preliminary research for the positioning system which included presenting my findings to the team. The user interface team
+                                        consists of me and two others who have been asked to create a in browser user interface for the rover using javascript and python.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <!--Row4-->
+                <section class="no-padding" id="scesoc">
+                <div class="row animation-element slide-left testimonial">
+                    <div class="col-md-5">
+                        <img src="img/projects/SCESOC.jpg" alt="SCESOC exec's" class="img-responsive">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="accordion">
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#SCESOC">
+                                        <h3 style="display:inline;">SCESOC (Systems and Computer Engineering Society)</h3>
+                                        <span class="fa fa-2x fa fa-chevron-circle-right" style="display:inline;padding-left: 3px;"></span>
+                                </a>
+                                <div id="SCESOC" class="accordion-section-content">
+                                    <p>
+                                        Not all software engineering is done using a keyboard and mouse. Many problems and solutions can be found with
+                                        the help of others. I myself was looking for a society at Carleton that would allow me to talk to fellow software
+                                        engineers and expand my network. Almost every engineering department has a society at Carleton that brings them
+                                        networking nights and support in their programs however I was amazed to find out that the Systems and Computer
+                                        Engineering department had no such society. Talking to fellow students in my department it was clear that everyone
+                                        wanted one so I decided to start one on my own, or rather restart the old one that had died out years ago. The new
+                                        society is now fully operational with plenty of interest. The image on the left is the executives of the society on
+                                        the first day of 'official' work.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-inline text-center">
+                            <li>
+                                <a target="_blank" href="https://github.com/VikramBombhi">
+                                <span class="fa-stack fa-2x">
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:vbombhi@gmail.com">
+                                <span class="fa-stack fa-2x">
+                                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p>Copyright 2015 &copy; Vikram Bombhi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/javascript.js"></script>
+        <script src="js/scroll-animations.js"></script>
+    </body>
+</html>
