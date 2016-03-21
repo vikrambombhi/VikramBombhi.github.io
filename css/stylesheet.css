@@ -1,0 +1,51 @@
+/*Navigation Bar*/
+.navbar{
+    text-align: center;
+    padding:2px;
+    padding-right: 11px;
+    margin-bottom: 2px;
+
+    // set animation
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.5s ease;
+}
+
+.unpadded{
+    padding:0;
+    padding-right: 11px;
+    opacity: 0.7;
+
+    // set animation
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.5s ease;
+}
+
+/*Accordian */
+.accordion-section-title {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.accordion a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.accordion-section-content {
+  text-align: justify;
+  padding: 0px;
+  display: none;
+}
+
+.accordion {
+  padding-bottom: 25px;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    color: grey;
+    background-color: rgba(1, 1, 1, 0.8);
+}
